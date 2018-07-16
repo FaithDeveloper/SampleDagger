@@ -1,4 +1,5 @@
-package com.kcs.sampledagger.di_example;
+package com.kcs.sampledagger.dagger_example;
+
 
 import javax.inject.Inject;
 
@@ -18,7 +19,7 @@ public class A_Pump implements Pump {
     @Override
     public void pump() {
         if (heater.isHot()) {
-            System.out.println("A_Pump> pumping => =>");
+            System.out.println("A_Pump => pumping ~");
         }
     }
 }
